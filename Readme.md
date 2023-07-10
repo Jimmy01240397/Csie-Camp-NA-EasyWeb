@@ -29,7 +29,7 @@ server {
     listen [::]:80;
     root /var/www/frontend;
     index index.html;
-    server_name <your domain name>;
+    server_name <your ip or domain name>;
     location / {
         try_files $uri $uri/ =404;
     }
