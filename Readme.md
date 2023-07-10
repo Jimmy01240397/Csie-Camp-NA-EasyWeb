@@ -8,7 +8,7 @@ cd Csie-Camp-NA-EasyWeb
 
 ## install frontend
 ```bash
-sudo cp frontend /var/www/frontend
+sudo cp -r frontend /var/www/frontend
 ```
 
 ## start backend
