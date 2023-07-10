@@ -10,7 +10,7 @@ def write():
     return str(ans) # 回傳 ans 內容
 
 @app.route('/backend/read',methods=['GET']) # 瀏覽網頁路徑 /backend/read 時要做甚麼
-def write():
+def read():
     if not os.path.exists('/tmp/nowtest.txt'): # 如果 /tmp/nowtest.txt 檔案不存在，回傳 "Not Found"，並結束該函式
         return "Not Found"
     with open('/tmp/nowtest.txt', 'r') as f:
