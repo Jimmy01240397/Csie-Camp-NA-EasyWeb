@@ -1,0 +1,5 @@
+<label for="fname">a:</label>
+<input id="a"><br><br>
+<label for="fname">b:</label>
+<input id="b"><br><br>
+<button onclick="fetch(`/backend?a=${document.getElementById('a').value}&b=${document.getElementById('b').value}`)">Send</button>
