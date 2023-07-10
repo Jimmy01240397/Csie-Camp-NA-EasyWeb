@@ -4,4 +4,4 @@
 <input id="b"><br><br>
 <button onclick="fetch(`/backend/write?a=${document.getElementById('a').value}&b=${document.getElementById('b').value}`)">Send</button><br><br>
 <label for="fname">---------------------------</label><br><br>
-<button onclick="fetch(`/backend/read`).then((data) => { alert(data); })">Read</button><br><br>
+<button onclick="fetch(`/backend/read`).then((data) => { alert(data.text()); })">Read</button><br><br>
